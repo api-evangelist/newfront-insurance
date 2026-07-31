@@ -1,8 +1,29 @@
 aid: newfront-insurance
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/newfront-insurance.png
 name: Newfront Insurance
-description: 'Newfront Insurance is a company surfaced as a portfolio company of bessemer-venture-partners,
-  bloomberg-beta, y-combinator and added to the API Evangelist network as a stub for enrichment. Sector:
-  fintech. This profile is a lead awaiting the enrichment pipeline.'
+description: 'Newfront is a technology-native insurance brokerage ("a brokerage for
+  the 21st century") serving startups through Fortune 500 enterprises, and now part
+  of WTW. It places business insurance (property, casualty, cyber, executive risk,
+  workers'' compensation, surety, aviation, M&A and global programs) alongside Total
+  Rewards services (employee benefits, compensation, retirement/401(k), HR, payroll
+  and benefits compliance), pairing brokerage expertise with in-house software such
+  as the Navigator benefits platform, RiskPulse analytics, and contract/coverage-gap
+  review tools. Newfront reports roughly 20% of U.S. unicorns as clients and $3.1B
+  in annual premiums placed. The company exposes no public developer API, documentation,
+  developer portal, SDKs, or webhooks; client and employee interaction happens through
+  the authenticated app.newfront.com application. This profile was surfaced as a VC
+  portfolio company and enriched with company identity and domain-security posture.'
 url: https://raw.githubusercontent.com/api-evangelist/newfront-insurance/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,10 +35,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Fintech
+- Insurance
+- Insurtech
+- Insurance Brokerage
+- Employee Benefits
+- Risk Management
+- Business Insurance
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -27,3 +54,20 @@ maintainers:
 common:
 - type: Website
   url: https://www.newfront.com/
+- type: Blog
+  url: https://www.newfront.com/blog
+- type: Login
+  url: https://app.newfront.com
+- type: Support
+  url: https://www.newfront.com/contact
+- type: TermsOfService
+  url: https://www.newfront.com/terms
+- type: PrivacyPolicy
+  url: https://www.newfront.com/privacy
+- type: DomainSecurity
+  url: security/newfront-insurance-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
